@@ -73,7 +73,7 @@ class App extends Component {
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    test
+                    test2
                   </a>
                 </li>
                 <li class="nav-item">
