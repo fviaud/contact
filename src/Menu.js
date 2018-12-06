@@ -31,7 +31,12 @@ class Menu extends Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar
+          color="light"
+          light
+          expand="md"
+          className="navbar fixed-top navbar-light bg-light"
+        >
           <NavbarBrand href="/">Contacts</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
