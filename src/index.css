@@ -12,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.user-profile .fullname {
+  margin: auto;
+  margin-top: -3em;
+  margin-left: 3.5em;
+  color: #16a085;
+  font-size: 1.53em;
+  font-family: "Coda", sans-serif;
+  font-weight: bold;
+}
+
+.user-profile .description {
+  margin-left: 6.5em;
+  width: 18em;
+  color: #7f8c8d;
+  font-size: 0.87em;
+  font-family: "varela round", sans-serif;
+}

@@ -52,14 +52,22 @@ class App extends Component {
           <ul className="list-group list-group-flush">
             {hits.map(hit => (
               <li className="list-group-item">
-                <img
-                  alt=""
-                  src={hit.picture.medium}
-                  className="rounded-circle"
-                />
                 <a href={hit.url}>
-                  {" "}
-                  {hit.name.first} {hit.name.last}
+                  <div className="user-profile">
+                    <img
+                      alt=""
+                      src={hit.picture.medium}
+                      className="rounded-circle"
+                    />
+                    <div className="fullname">
+                      {" "}
+                      {hit.name.first} {hit.name.last}{" "}
+                    </div>
+                    <div className="description">
+                      <div>{hit.email}</div>
+                      <div>{hit.location.city}</div>
+                    </div>
+                  </div>
                 </a>
               </li>
             ))}
