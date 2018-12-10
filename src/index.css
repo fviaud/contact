@@ -13,7 +13,18 @@ code {
     monospace;
 }
 
-.user-profile .fullname {
+.version {
+  font-size: 0.53em;
+}
+
+.user-profile {
+  margin: auto;
+
+  background: #fff;
+  border-radius: 0.3em;
+}
+
+.fullname {
   margin: auto;
   margin-top: -3em;
   margin-left: 3.5em;
@@ -23,10 +34,18 @@ code {
   font-weight: bold;
 }
 
-.user-profile .description {
+.description {
   margin-left: 6.5em;
   width: 18em;
   color: #7f8c8d;
   font-size: 0.87em;
   font-family: "varela round", sans-serif;
+}
+
+.description .label {
+  color: black;
+}
+
+.bAjouter {
+  float: right;
 }

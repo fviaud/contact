@@ -37,7 +37,11 @@ class Menu extends Component {
           expand="md"
           className="navbar fixed-top navbar-light bg-light"
         >
-          <NavbarBrand href="/">Contacts</NavbarBrand>
+          <NavbarBrand href="/">
+            <div>
+              Contacts <span className="version">V0.1</span>
+            </div>
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
