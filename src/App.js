@@ -62,7 +62,7 @@ class App extends Component {
                   </div>
                   <button
                     type="button"
-                    class="btn btn-outline-secondary bAjouter"
+                    className="btn btn-outline-secondary bAjouter"
                   >
                     Ajouter
                   </button>

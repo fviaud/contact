@@ -39,7 +39,7 @@ class Menu extends Component {
         >
           <NavbarBrand href="/">
             <div>
-              Contacts <span className="version">V0.1</span>
+              Contacts <span className="version">V0.3</span>
             </div>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
